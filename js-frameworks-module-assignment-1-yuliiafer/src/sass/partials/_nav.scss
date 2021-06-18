@@ -1,0 +1,12 @@
+.nav-link {
+    font-size: $pxTwentyTwo;
+    color: $colorViolet !important;
+
+    &.active {
+        color: $colorPink !important;
+    }
+
+    &:hover {
+        color: $colorBackground !important;
+    }
+}

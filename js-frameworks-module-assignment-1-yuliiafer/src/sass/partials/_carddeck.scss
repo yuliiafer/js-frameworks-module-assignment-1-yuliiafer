@@ -1,0 +1,24 @@
+.card-deck {
+    margin-top: $pageSpacing;
+    margin-bottom: $pageSpacing*2;
+
+    .card-body {
+        padding-left: 0;
+        padding-right: 0;
+
+        .card-title {
+            color: $colorPink;
+        }
+    }
+
+    .card-footer {
+        padding-left: 0;
+        padding-right: 0;
+
+        button {
+            padding-left: $pageSpacing;
+            padding-right: $pageSpacing;
+        }
+
+    }
+}

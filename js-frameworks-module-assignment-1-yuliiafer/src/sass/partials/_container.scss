@@ -1,0 +1,15 @@
+.container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.footer {
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 580px) {
+    .container {
+        padding-left: $pageSpacing !important;
+        padding-right: $pageSpacing !important;
+    }
+}

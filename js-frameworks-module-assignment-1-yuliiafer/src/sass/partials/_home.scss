@@ -1,0 +1,24 @@
+.home {
+    background-image: url(../../images/tech.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40rem;
+    padding: $pxSeventyTwo;
+    padding-left: $pageSpacing;
+
+    h2 {
+        padding-top: 1rem;
+        color: $fontLight;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home {
+        font-size: $pxTwentyEight;
+
+        h2 {
+            font-size: $pxSixteen;
+        }
+    }
+}

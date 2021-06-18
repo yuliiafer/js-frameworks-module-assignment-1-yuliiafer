@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+@import 'variables';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: $colorDarker;
+}
+
+.root {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: $fontLight;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2,
+h3,
+h4 {
+    color: $colorViolet;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    color: $fontDarker;
+}
+
+@media screen and (max-width: 580px) {
+
+    h2,
+    h3,
+    h4 {
+        font-size: $pxSixteen;
+    }
+}

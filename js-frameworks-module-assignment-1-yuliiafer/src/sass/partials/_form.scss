@@ -1,0 +1,10 @@
+.form-group {
+
+    label {
+        color: $fontDarker;
+
+        .form-control {
+            background-color: $colorGray;
+        }
+    }
+}

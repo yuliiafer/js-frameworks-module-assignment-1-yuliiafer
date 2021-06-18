@@ -1,0 +1,7 @@
+.adress {
+    text-align: left;
+
+    &:last-of-type {
+        padding-bottom: $pageSpacing;
+    }
+}
